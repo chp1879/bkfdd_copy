@@ -1,0 +1,15 @@
+.././nanotrav ../Benchmark/adder.blif -autodyn -automethod group -reordering group -drop -verify benchmark_output_EPFL/adder.blif > cuddverifyEPFLeasy.txt
+.././nanotrav ../Benchmark/arbiter.blif -autodyn -automethod group -reordering group -drop -verify benchmark_output_EPFL/arbiter.blif >> cuddverifyEPFLeasy.txt
+.././nanotrav ../Benchmark/bar.blif -autodyn -automethod group -reordering group -drop -verify benchmark_output_EPFL/bar.blif >> cuddverifyEPFLeasy.txt
+.././nanotrav ../Benchmark/cavlc.blif -autodyn -automethod group -reordering group -drop -verify benchmark_output_EPFL/cavlc.blif >> cuddverifyEPFLeasy.txt
+.././nanotrav ../Benchmark/ctrl.blif -autodyn -automethod group -reordering group -drop -verify benchmark_output_EPFL/ctrl.blif >> cuddverifyEPFLeasy.txt
+.././nanotrav ../Benchmark/dec.blif -autodyn -automethod group -reordering group -drop -verify benchmark_output_EPFL/dec.blif >> cuddverifyEPFLeasy.txt
+.././nanotrav ../Benchmark/i2c.blif -autodyn -automethod group -reordering group -drop -verify benchmark_output_EPFL/i2c.blif >> cuddverifyEPFLeasy.txt
+.././nanotrav ../Benchmark/int2float.blif -autodyn -automethod group -reordering group -drop -verify benchmark_output_EPFL/int2float.blif >> cuddverifyEPFLeasy.txt
+.././nanotrav ../Benchmark/mem_ctrl.blif -autodyn -automethod group -reordering group -drop -verify benchmark_output_EPFL/mem_ctrl.blif >> cuddverifyEPFLeasy.txt
+.././nanotrav ../Benchmark/priority.blif -autodyn -automethod group -reordering group -drop -verify benchmark_output_EPFL/priority.blif >> cuddverifyEPFLeasy.txt
+.././nanotrav ../Benchmark/router.blif -autodyn -automethod group -reordering group -drop -verify benchmark_output_EPFL/router.blif >> cuddverifyEPFLeasy.txt
+.././nanotrav ../Benchmark/sin.blif -autodyn -automethod group -reordering group -drop -verify benchmark_output_EPFL/sin.blif >> cuddverifyEPFLeasy.txt
+#.././nanotrav ../Benchmark/revx.blif -autodyn -automethod group -reordering group -drop -verify benchmark_output_EPFL/revx.blif >> cuddverifyEPFLeasy.txt
+#.././nanotrav ../Benchmark/mul20.blif -autodyn -automethod group -reordering group -drop -verify benchmark_output_EPFL/mul20.blif >> cuddverifyEPFLeasy.txt
+#.././nanotrav ../Benchmark/sqrt32.blif -autodyn -automethod group -reordering group -drop -verify benchmark_output_EPFL/sqrt32.blif >> cuddverifyEPFLeasy.txt
